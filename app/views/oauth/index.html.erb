@@ -1,0 +1,10 @@
+<h1>認証</h1>
+
+<% if flash[:danger] %>
+	<div class="alert alert-danger">
+		<%= flash[:danger] %>
+	</div>
+<% end %>
+
+<%= button_to '認証', :action => 'authorize' %>
+

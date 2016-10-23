@@ -1,0 +1,8 @@
+<h1>認証完了</h1>
+
+<h2>送信メッセージ</h2>
+<%= form_tag('/oauth/send_message') do %>
+	<%= text_area :page, :message, :size => "20x10" %>
+	<br />
+	<%= submit_tag('送信') %>
+<% end %>
