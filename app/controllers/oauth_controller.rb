@@ -1,4 +1,6 @@
 class OauthController < ApplicationController
+	protect_from_forgery :except => [:callback]
+
 	require 'oauth2'
 	require 'net/http'
 	require 'openssl'

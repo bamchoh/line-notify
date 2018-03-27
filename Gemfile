@@ -49,3 +49,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'oauth2'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
+gem 'font-awesome-rails'
